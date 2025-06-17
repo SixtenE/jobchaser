@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# U07 Jobchaser
 
-## Getting Started
+- ## Vecka 1
 
-First, run the development server:
+  - Allmänt om ramverket React: Hur/Varför uppkom det? Vad är centralt i React?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+  - Vad är JSX?
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  - Vad är en komponent?
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+  - Vad är props?
+  - Vad menas med one-way-dataflow?
+  - Hur kan man använda sig av konditionell rendering i React?
+  - Vad menas med en återanvändbar komponent?
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- ## Vecka 2
 
-## Learn More
+  - Vad är state i React?
+  - Vad är det för skillnad mellan state och props?
+  - Vad menas med en kontrollerad komponent i React?
 
-To learn more about Next.js, take a look at the following resources:
+  - Vad är en callback handler?
+  - Vad menas med "lifting state up"?
+  - Vad är syftet med useEffect-hook i React?
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  - Vad är syftet kring den s.k dependency-arrayen i useEffect?
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- ## Vecka 3
 
-## Deploy on Vercel
+  - Vilka fördelar finns det med att använda NextJS? Nackdelar?
+  - Vad menas med Routing? På vilket sätt löser NextJS Routing v.s "vanliga React"?
+  - Vad menas med Reacts ekosystem? Nämn några viktiga bibliotek i Reacts ekosystem?
+  - Vad är syftet med useContext? Vilket problem med props löser den?
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- ## Vecka 4
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+  - Vad är Redux Toolkit?
+  - När, i vilka situationer vill man använda Redux Toolkit?
