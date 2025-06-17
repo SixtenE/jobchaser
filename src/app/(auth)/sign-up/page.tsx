@@ -14,18 +14,12 @@ import {
 } from "@/components/ui/form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import Link from "next/link";
-import axios from "redaxios";
 import { useSelector } from "react-redux";
 import { RootState } from "@/redux/store";
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
-
-// Create an axios instance with base URL
-const api = axios.create({
-  //   baseURL: "http://192.168.1.255:8080/api",
-  baseURL: "http://localhost:8080/api",
-});
+import { api } from "@/lib/api";
 
 export default function Page() {
   const router = useRouter();
